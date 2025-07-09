@@ -4,7 +4,7 @@
     "Author": "Jonny",
     "Type": "Vehicle",
     "default_pc": "default",
-    "default_color": "Blue"d,
+    "default_color": "Blue",
     "colors": {
         "White": "1, 1, 1, 1",
         "Blue": "0, 0, 1, 1",

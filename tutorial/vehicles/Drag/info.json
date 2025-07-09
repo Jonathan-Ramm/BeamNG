@@ -1,0 +1,16 @@
+{
+    "Name": "Hirochi Drag",
+    "Brand": "Hirochi",
+    "Author": "Jonny",
+    "Type": "Vehicle",
+    "default_pc": "default",
+    "default_color": "Blue",
+    "colors": {
+        "White": "1, 1, 1, 1",
+        "Blue": "0, 0, 1, 1",
+        "Red": "1, 0, 0, 1",
+        "Green": "0, 1, 0, 1"
+
+
+    }
+}

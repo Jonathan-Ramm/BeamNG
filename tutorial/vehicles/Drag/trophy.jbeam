@@ -1,0 +1,15 @@
+{
+  "trophy": {
+    "information": {
+      "name": "Trophy Truck",
+      "authors": "Jonny",
+      "value": 100
+    },
+    "slotType": "main",
+    "slots":[
+      ["type", "default", "description"],
+      ["body","body","Body"]
+    ]
+}
+}
+    

@@ -1,298 +1,336 @@
 {
-    "Empty": {
-        "information": {
-            "name": "Empty",
-            "authors": "Jonny",
-            "value": 0
-        },
-        "slotType": "suspension"
-    },
-    "f_default": {
-      "information": {
-        "name": "Race Front Suspension",
+"Empty": {
+    "information": {
+        "name": "Empty",
         "authors": "Jonny",
-        "value": 100
-      },
-      "slotType": "f_suspension",
-      "slots":[
-        ["type", "default", "description"],
-        ["tire","f_wheels","Tires"],
-        ["steerring","steering","Steering"],
-      ],
+        "value": 0
+    },
+    "slotType": "suspension"
+},
+"f_default": {
+  "information": {
+    "name": "Race Front Suspension",
+    "authors": "Jonny",
+    "value": 100
+  },
+  "slotType": "f_suspension",
+  "slots":[
+    ["type", "default", "description"],
+    ["tire","f_wheels","Tires"],
+    ["steerring","steering","Steering"],
+  ],
 
-      "flexbodies":[
-        ["mesh", "[group]:", "nonFlexMaterials"],
-        ["right_arm", ["right_arm"], [], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}],
-        ["right_bumper", ["right_bumper"], [], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}],
-        ["right_bumper2", ["right_bumper"], [], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}],
-        ["right_arm_t", ["right_arm_t"], [], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}],
-        ["right_wheelmount", ["right_wheelmount"], [], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}],
-        ["Wheel_FR", ["tire_FR"],[], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}]
-  
-        ["left_arm", ["left_arm"], [], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}],
-        ["left_bumper", ["left_bumper"], [], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}],
-        ["left_arm_t", ["left_arm_t"], [], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}],
-        ["left_wheelmount", ["left_wheelmount"], [], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}]
-        ["Wheel_FL", ["tire_FL"],[], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}]
+  "flexbodies":[
+    ["mesh", "[group]:", "nonFlexMaterials"],
+    ["right_arm", ["right_arm"], [], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}],
+    ["right_bumper", ["right_bumper"], [], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}],
+    ["right_bumper2", ["right_bumper"], [], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}],
+    ["right_arm_t", ["right_arm_t"], [], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}],
+    ["right_wheelmount", ["right_wheelmount"], [], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}],
+    ["Wheel_FR", ["tire_FR"],[], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}]
 
-
-        
-        ],
-
-      "nodes":[
-        ["id", "posX", "posY", "posZ"],
-        {"group": "right_arm", "nodeWeight":5},
-        ["sfr1",-0.298,-1.86,-0.20700000000000002],
-        ["sfr2",-0.285,-2.267,-0.212],
-        ["sfr3",-1.0570000000000002,-2.363,-0.649],
-        ["sfr4",-0.8130000000000001,-2.2800000000000002,-0.541],
-        ["sfr5",-0.8,-2,-0.55],
-        ["sfr6",-0.55,-1.925,-0.375],
-        ["sfr7",-0.8,-2.142,-0.465],
-        ["sfr8",-0.55,-2.25,-0.375],
-        ["sfr9",-0.954,-2.179,-0.6],
-        ["sfr11",-0.659,-2.08,-0.38]
-
-        ["sfr10",-0.447,-2.08,-0.258]
-        {"group": "right_bumper"},
-        ["sfrb1",-0.328,-2,0.875],
-        {"group": "right_feder"},
-        ["sfrb2",-0.35,-2.3,0.9],
-        {"group": "right_arm_t"},
-        ["sfr20",-0.3519999999999999,-2.372,0.2],
-        ["sfr21",-0.35,-2.713,0.2],
-        ["sfr22",-1,-2.3000000000000003,-0.088],
-        ["sfr23",-0.7,-2.58,0.05],
-        ["sfr24",-0.755,-2.297,0.043000000000000003],
-        ["sfr25",-0.394,-2.372,0.218],
-        ["sfr26",-0.45,-2.7,0.2],
-        ["sfr27",-1,-2.193,-0.05],
-        ["sfr28",-0.789,-2.52,0.049],
-        ["sfr29",-0.6,-2.35,0.05],
-        ["sfr30",-1.116,-2.225,-0.1],
-        {"group":"right_wheelmount"},
-        ["sfr40",-1.1919999999999997,-2.29,-0.606],
-        ["sfr41",-1.1250000000000002,-2.25,-0.114],
-        ["sfr42",-1.2,-2.328,-0.2],
-        ["sfr43",-1.197,-2.2,-0.2],
-        ["sfr44",-1.3860000000000001,-2.3,-0.4],
-        ["sfr45",-1.346,-2.4170000000000003,-0.5],
-        ["sfr46",-1.3,-2.3,-0.6],
-        ["sfr47",-1.352,-2.25,-0.5],
-        {"group":"AxleFR"}
-        ["sfrw1",-1.38,-2.3,-0.5],
-        ["sfrw2",-1.6,-2.3,-0.5],
-        ["sfrw3",-1.38,-2.3,-0.356]
+    ["left_arm", ["left_arm"], [], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}],
+    ["left_bumper", ["left_bumper"], [], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}],
+    ["left_arm_t", ["left_arm_t"], [], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}],
+    ["left_wheelmount", ["left_wheelmount"], [], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}]
+    ["Wheel_FL", ["tire_FL"],[], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}]
 
 
-
-
-        {"group": "left_arm"},
-        ["sfl1",0.292,-1.868,-0.22],
-        ["sfl2",0.315,-2.267,-0.212],
-        ["sfl3",1.043,-2.363,-0.649],
-        ["sfl4",0.787,-2.2800000000000002,-0.541],
-        ["sfl5",0.8,-2,-0.55],
-        ["sfl6",0.55,-1.925,-0.375],
-        ["sfl7",0.8,-2.2,-0.5],
-        ["sfl8",0.55,-2.25,-0.375],
-        ["sfl9",1.046,-2.179,-0.6],
-        {"group": "left_bumper"},
-        ["sflb1",0.32,-2,0.87],
-        {"group": "left_feder"},
-        ["sflb2",0.35,-2.3,0.9],
-        {"group": "left_arm_t"},
-        ["sfl20",0.34800000000000003,-2.372,0.2],
-        ["sfl21",0.35,-2.713,0.2],
-        ["sfl22",1,-2.3000000000000003,-0.088],
-        ["sfl23",0.7,-2.58,0.05],
-        ["sfl24",0.745,-2.297,0.043000000000000003],
-        ["sfl25",0.506,-2.372,0.138],
-        ["sfl26",0.45,-2.7,0.2],
-        ["sfl27",0.932,-2.193,-0.094],
-        ["sfl28",0.811,-2.52,0.015],
-        ["sfl29",0.6,-2.35,0.05],
-        ["sfl30",1.084,-2.225,-0.1],
-        {"group":"left_wheelmount"},
-        ["sfl40",1.108,-2.29,-0.606],
-        ["sfl41",1.075,-2.25,-0.114],
-        ["sfl42",1.2,-2.25,-0.2],
-        ["sfl43",1.2029999999999998,-2.2,-0.2],
-        ["sfl44",1.214,-2.3,-0.4],
-        ["sfl45",1.346,-2.4170000000000003,-0.5],
-        ["sfl46",1.3,-2.3,-0.6],
-        ["sfl47",1.248,-2.173,-0.5],
-
-        {"group":"AxleFL"}
-        ["sflw1",1.3,-2.3,-0.5],
-        ["sflw2",1.7,-2.3,-0.5],
-        ["sflw3",1.3,-2.3,-0.356]
-        
-      ],
-
-    "hydros": [
-        ["id1:","id2:"],
-        {"beamPrecompression":1.0, "beamType":"|NORMAL", "beamLongBound":1, "beamShortBound":1},
-        {"beamSpring":8001000,"beamDamp":50,"beamDeform":"FLT_MAX"},
-        ["bur1","sfr45", {"factor": 0.14,"steeringWheelLock":300,"inRate":1.25,"outRate":1.25}],
-        ["bul1","sfl45", {"factor":-0.14,"steeringWheelLock":300,"inRate":1.25,"outRate":1.25}],
-        {"beamPrecompression":1.0, "beamType":"|NORMAL", "beamLongBound":1, "beamShortBound":1}
+    
     ],
+
+  "nodes":[
+    ["id", "posX", "posY", "posZ"],
+    {"group": "right_arm", "nodeWeight":5},
+    ["sfr1",-0.298,-1.86,-0.20700000000000002],
+    ["sfr2",-0.323,-2.267,-0.212],
+    ["sfr3",-1.0570000000000002,-2.363,-0.615],
+    ["sfr4",-0.737,-2.299,-0.645],
+    ["sfr5",-0.8,-1.968,-0.55],
+    ["sfr6",-0.55,-1.841,-0.40800000000000003],
+    ["sfr7",-0.872,-2.232,-0.484],
+    ["sfr8",-0.55,-2.329,-0.375],
+    ["sfr9",-1.0010000000000001,-2.148,-0.6],
+    ["sfr10",-0.447,-2.08,-0.258],
+    ["sfr11",-0.659,-2.224,-0.38],
+    ["sfr12",-0.659,-1.971,-0.38],
+    ["sfr13",-0.535,-2.08,-0.49],
+    ["sfr14",-0.425,-2.08,-0.376],
+    ["sfr15",-0.8310000000000001,-2.08,-0.503],
+    ["sfr16",-0.43,-1.7830000000000001,-0.276],
+    ["sfr17",-0.47600000000000003,-2.2750000000000004,-0.218],
+    ["sfr18",-0.595,-2.08,-0.38],
+    {"group": "right_bumper"},
+    ["sfrb1",-0.328,-2,0.875],
+    {"group": "right_feder"},
+    ["sfrb2",-0.35,-2.3,0.9],
+    {"group": "right_arm_t"},
+    ["sfr20",-0.358,-2.37,0.183],
+    ["sfr21",-0.35,-2.713,0.2],
+    ["sfr22",-0.935,-2.366,-0.041],
+    ["sfr23",-0.7,-2.607,0.05],
+    ["sfr24",-0.755,-2.261,0.043000000000000003],
+    ["sfr25",-0.549,-2.329,0.145],
+    ["sfr26",-0.559,-2.7,0.18],
+    ["sfr27",-0.9380000000000001,-2.172,-0.14100000000000001],
+    ["sfr28",-0.809,-2.52,0.079],
+    ["sfr29",-0.52,-2.477,0.05],
+    ["sfr30",-1.116,-2.1710000000000003,-0.1],
+    ["sfr31",-1.116,-2.2960000000000003,-0.1],
+    {"group":"right_wheelmount"},
+    ["sfr40",-1.1360000000000001,-2.308,-0.6900000000000001],
+    ["sfr41",-1.1250000000000002,-2.242,-0.114],
+    ["sfr42",-1.2,-2.338,-0.276],
+    ["sfr43",-1.197,-2.2,-0.2],
+    ["sfr44",-1.3860000000000001,-2.3,-0.4],
+    ["sfr45",-1.346,-2.524,-0.375,{"group":"ste_r"}],
+    ["sfr46",-1.3,-2.3,-0.6],
+    ["sfr47",-1.352,-2.153,-0.5],
+    ["sfr48",-1.3,-2.398,-0.6],
+    ["sfr49",-1.352,-2.437,-0.361],
+    {"group":"AxleFR"}
+    ["sfrw1",-1.38,-2.3,-0.5],
+    ["sfrw2",-1.6,-2.3,-0.5],
+    ["sfrw3",-1.38,-2.3,-0.356]
+
+
+
+
+    {"group": "left_arm"},
+    ["sfl1",0.298,-1.86,-0.20700000000000002],
+    ["sfl2",0.323,-2.267,-0.212],
+    ["sfl3",1.0570000000000002,-2.363,-0.615],
+    ["sfl4",0.737,-2.299,-0.645],
+    ["sfl5",0.8,-1.968,-0.55],
+    ["sfl6",0.55,-1.841,-0.40800000000000003],
+    ["sfl7",0.872,-2.232,-0.484],
+    ["sfl8",0.55,-2.329,-0.375],
+    ["sfl9",0.0010000000000001,-2.148,-0.6],
+    ["sfl10",0.447,-2.08,-0.258],
+    ["sfl11",0.659,-2.224,-0.38],
+    ["sfl12",0.659,-1.971,-0.38],
+    ["sfl13",0.535,-2.08,-0.49],
+    ["sfl14",0.425,-2.08,-0.376],
+    ["sfl15",0.8310000000000001,-2.08,-0.503],
+    ["sfl16",0.43,-1.7830000000000001,-0.276],
+    ["sfl17",0.47600000000000003,-2.2750000000000004,-0.218],
+    ["sfl18",0.595,-2.08,-0.38],
+    {"group": "left_bumper"},
+    ["sflb1",0.32,-2,0.87],
+    {"group": "left_feder"},
+    ["sflb2",0.35,-2.3,0.9],
+    {"group": "left_arm_t"},
+    ["sfl20",0.358,-2.37,0.183],
+    ["sfl21",0.35,-2.713,0.2],
+    ["sfl22",0.935,-2.366,-0.041],
+    ["sfl23",0.7,-2.607,0.05],
+    ["sfl24",0.755,-2.261,0.043000000000000003],
+    ["sfl25",-0.549,-2.329,0.145],
+    ["sfl26",0.559,-2.7,0.18],
+    ["sfl27",0.9380000000000001,-2.172,-0.14100000000000001],
+    ["sfl28",0.809,-2.52,0.079],
+    ["sfl29",0.52,-2.477,0.05],
+    ["sfl30",1.116,-2.1710000000000003,-0.1],
+    ["sfl31",1.116,-2.2960000000000003,-0.1],
+    {"group":"left_wheelmount"},
+    ["sfl40",1.1360000000000001,-2.308,-0.6900000000000001],
+    ["sfl41",1.1250000000000002,-2.242,-0.114],
+    ["sfl42",1.2,-2.338,-0.276],
+    ["sfl43",1.197,-2.2,-0.2],
+    ["sfl44",1.3860000000000001,-2.3,-0.4],
+    ["sfl45",1.346,-2.524,-0.375,{"group":"ste_r"}],
+    ["sfl46",1.3,-2.3,-0.6],
+    ["sfl47",1.352,-2.153,-0.5],
+    ["sfl48",1.3,-2.398,-0.6],
+    ["sfl49",1.352,-2.437,-0.361]
+
+    {"group":"AxleFL"}
+    ["sflw1",1.38,-2.3,-0.5],
+    ["sflw2",1.6,-2.3,-0.5],
+    ["sflw3",1.38,-2.3,-0.356]
+    
+  ],
+
+    
     
 
 
 
-    "beams":[
-        ["id1:", "id2:"],
-        {"group":"", "beamStrength": 200000},{"beamDamp": 100},
-
-        //Mittlere Verbindung
-        ["bul6", "bur6"], ["bul6", "f1l"], ["bul6", "f1r"], ["bul6", "f2l"], ["bul6", "f2r"], ["bul6", "f4l"], ["bul6", "f4r"], ["bul6", "sfl1"], ["bul6", "sfl2"], ["bul6", "sfl20"],
-        ["bul6", "sfl21"], ["bul6", "sfr1"], ["bul6", "sfr2"], ["bul6", "sfr20"], ["bul6", "sfr21"], ["bur6", "f1l"], ["bur6", "f1r"], ["bur6", "f2l"], ["bur6", "f2r"], ["bur6", "f4l"],
-        ["bur6", "f4r"], ["bur6", "sfl1"], ["bur6", "sfl2"], ["bur6", "sfl20"], ["bur6", "sfl21"], ["bur6", "sfr1"], ["bur6", "sfr2"], ["bur6", "sfr20"], ["bur6", "sfr21"], ["f1l", "f1r"],
-        ["f1l", "f2l"], ["f1l", "f2r"], ["f1l", "f4l"], ["f1l", "f4r"], ["f1l", "sfl1"], ["f1l", "sfl2"], ["f1l", "sfl20"], ["f1l", "sfl21"], ["f1l", "sfr1"], ["f1l", "sfr2"],
-        ["f1l", "sfr20"], ["f1l", "sfr21"], ["f1r", "f2l"], ["f1r", "f2r"], ["f1r", "f4l"], ["f1r", "f4r"], ["f1r", "sfl1"], ["f1r", "sfl2"], ["f1r", "sfl20"], ["f1r", "sfl21"],
-        ["f1r", "sfr1"], ["f1r", "sfr2"], ["f1r", "sfr20"], ["f1r", "sfr21"], ["f2l", "f2r"], ["f2l", "f4l"], ["f2l", "f4r"], ["f2l", "sfl1"], ["f2l", "sfl2"], ["f2l", "sfl20"],
-        ["f2l", "sfl21"], ["f2l", "sfr1"], ["f2l", "sfr2"], ["f2l", "sfr20"], ["f2l", "sfr21"], ["f2r", "f4l"], ["f2r", "f4r"], ["f2r", "sfl1"], ["f2r", "sfl2"], ["f2r", "sfl20"],
-        ["f2r", "sfl21"], ["f2r", "sfr1"], ["f2r", "sfr2"], ["f2r", "sfr20"], ["f2r", "sfr21"], ["f4l", "f4r"], ["f4l", "sfl1"], ["f4l", "sfl2"], ["f4l", "sfl20"], ["f4l", "sfl21"],
-        ["f4l", "sfr1"], ["f4l", "sfr2"], ["f4l", "sfr20"], ["f4l", "sfr21"], ["f4r", "sfl1"], ["f4r", "sfl2"], ["f4r", "sfl20"], ["f4r", "sfl21"], ["f4r", "sfr1"], ["f4r", "sfr2"],
-        ["f4r", "sfr20"], ["f4r", "sfr21"], ["sfl1", "sfl20"], ["sfl1", "sfl21"], ["sfl1", "sfr1"], ["sfl1", "sfr2"], ["sfl1", "sfr20"], ["sfl1", "sfr21"], ["sfl2", "sfl20"],
-        ["sfl2", "sfl21"], ["sfl2", "sfr1"], ["sfl2", "sfr2"], ["sfl2", "sfr20"], ["sfl2", "sfr21"], ["sfl20", "sfr1"], ["sfl20", "sfr2"], ["sfl20", "sfr20"], ["sfl20", "sfr21"],
-        ["sfl21", "sfr1"], ["sfl21", "sfr2"], ["sfl21", "sfr20"], ["sfl21", "sfr21"],  ["sfr1", "sfr20"], ["sfr1", "sfr21"], ["sfr2", "sfr20"], ["sfr2", "sfr21"],
-
-        //right arm unten
-        ["sfr1", "sfr10"], ["sfr1", "sfr11"], ["sfr1", "sfr2"], ["sfr1", "sfr3"], ["sfr1", "sfr4"], ["sfr1", "sfr40"], ["sfr1", "sfr5"], ["sfr1", "sfr6"], ["sfr1", "sfr7"], ["sfr1", "sfr8"],
-        ["sfr1", "sfr9"], ["sfr10", "sfr11"], ["sfr10", "sfr2"], ["sfr10", "sfr3"], ["sfr10", "sfr4"], ["sfr10", "sfr40"], ["sfr10", "sfr5"], ["sfr10", "sfr6"], ["sfr10", "sfr7"], ["sfr10", "sfr8"],
-        ["sfr10", "sfr9"], ["sfr11", "sfr2"], ["sfr11", "sfr3"], ["sfr11", "sfr4"], ["sfr11", "sfr40"], ["sfr11", "sfr5"], ["sfr11", "sfr6"], ["sfr11", "sfr7"], ["sfr11", "sfr8"], ["sfr11", "sfr9"],
-        ["sfr2", "sfr3"], ["sfr2", "sfr4"],["sfr2", "sfr5"], ["sfr2", "sfr6"], ["sfr2", "sfr7"], ["sfr2", "sfr8"], ["sfr2", "sfr9"], ["sfr3", "sfr4"], ["sfr3", "sfr40"],
-        ["sfr3", "sfr5"], ["sfr3", "sfr6"], ["sfr3", "sfr7"], ["sfr3", "sfr8"], ["sfr3", "sfr9"], ["sfr4", "sfr40"], ["sfr4", "sfr5"], ["sfr4", "sfr6"], ["sfr4", "sfr7"], ["sfr4", "sfr8"],
-        ["sfr4", "sfr9"], ["sfr40", "sfr5"], ["sfr40", "sfr6"], ["sfr40", "sfr7"], ["sfr40", "sfr8"], ["sfr40", "sfr9"], ["sfr5", "sfr6"], ["sfr5", "sfr7"], ["sfr5", "sfr8"], ["sfr5", "sfr9"],
-        ["sfr6", "sfr7"], ["sfr6", "sfr8"], ["sfr6", "sfr9"], ["sfr7", "sfr8"], ["sfr7", "sfr9"], ["sfr8", "sfr9"],
-        //right arm oben
-        
-        ["sfr20", "sfr21"], ["sfr20", "sfr22"], ["sfr20", "sfr23"], ["sfr20", "sfr24"], ["sfr20", "sfr25"], ["sfr20", "sfr26"], ["sfr20", "sfr27"], ["sfr20", "sfr28"], ["sfr20", "sfr29"], ["sfr20", "sfr30"],
-        ["sfr20", "sfr41"], ["sfr21", "sfr22"], ["sfr21", "sfr23"], ["sfr21", "sfr24"], ["sfr21", "sfr25"], ["sfr21", "sfr26"], ["sfr21", "sfr27"], ["sfr21", "sfr28"], ["sfr21", "sfr29"], ["sfr21", "sfr30"],
-        ["sfr21", "sfr41"], ["sfr22", "sfr23"], ["sfr22", "sfr24"], ["sfr22", "sfr25"], ["sfr22", "sfr26"], ["sfr22", "sfr27"], ["sfr22", "sfr28"], ["sfr22", "sfr29"], ["sfr22", "sfr30"], ["sfr22", "sfr41"],
-        ["sfr23", "sfr24"], ["sfr23", "sfr25"], ["sfr23", "sfr26"], ["sfr23", "sfr27"], ["sfr23", "sfr28"], ["sfr23", "sfr29"], ["sfr23", "sfr30"], ["sfr23", "sfr41"], ["sfr24", "sfr25"], ["sfr24", "sfr26"],
-        ["sfr24", "sfr27"], ["sfr24", "sfr28"], ["sfr24", "sfr29"], ["sfr24", "sfr30"], ["sfr24", "sfr41"], ["sfr25", "sfr26"], ["sfr25", "sfr27"], ["sfr25", "sfr28"], ["sfr25", "sfr29"], ["sfr25", "sfr30"],
-        ["sfr25", "sfr41"], ["sfr26", "sfr27"], ["sfr26", "sfr28"], ["sfr26", "sfr29"], ["sfr26", "sfr30"], ["sfr26", "sfr41"], ["sfr27", "sfr28"], ["sfr27", "sfr29"], ["sfr27", "sfr30"], ["sfr27", "sfr41"],
-        ["sfr28", "sfr29"], ["sfr28", "sfr30"], ["sfr28", "sfr41"], ["sfr29", "sfr30"], ["sfr29", "sfr41"], ["sfr30", "sfr41"],
-        //right side ding
-        ["sfr40", "sfr41"], ["sfr40", "sfr42"], ["sfr40", "sfr43"], ["sfr40", "sfr44"], ["sfr40", "sfr45"], ["sfr40", "sfr46"], ["sfr40", "sfr47"], ["sfr40", "sfrw1"], ["sfr40", "sfrw2"], ["sfr40", "sfrw3"],
-        ["sfr41", "sfr42"], ["sfr41", "sfr43"], ["sfr41", "sfr44"], ["sfr41", "sfr45"], ["sfr41", "sfr46"], ["sfr41", "sfr47"], ["sfr41", "sfrw1"], ["sfr41", "sfrw2"], ["sfr41", "sfrw3"], ["sfr42", "sfr43"],
-        ["sfr42", "sfr44"], ["sfr42", "sfr45"], ["sfr42", "sfr46"], ["sfr42", "sfr47"], ["sfr42", "sfrw1"], ["sfr42", "sfrw2"], ["sfr42", "sfrw3"], ["sfr43", "sfr44"], ["sfr43", "sfr45"], ["sfr43", "sfr46"],
-        ["sfr43", "sfr47"], ["sfr43", "sfrw1"], ["sfr43", "sfrw2"], ["sfr43", "sfrw3"], ["sfr44", "sfr45"], ["sfr44", "sfr46"], ["sfr44", "sfr47"], ["sfr44", "sfrw1"], ["sfr44", "sfrw2"], ["sfr44", "sfrw3"],
-        ["sfr45", "sfr46"], ["sfr45", "sfr47"], ["sfr45", "sfrw1"], ["sfr45", "sfrw2"], ["sfr45", "sfrw3"], ["sfr46", "sfr47"], ["sfr46", "sfrw1"], ["sfr46", "sfrw2"], ["sfr46", "sfrw3"], ["sfr47", "sfrw1"],
-        ["sfr47", "sfrw2"], ["sfr47", "sfrw3"], ["sfrw1", "sfrw2"], ["sfrw1", "sfrw3"], ["sfrw2", "sfrw3"],
+"beams":[
+  ["id1:", "id2:"],
+  {"group":"", "beamStrength": 200000},{"beamDamp": 500},
 
 
-        //left arm unten
-        ["sfl1", "sfl10"], ["sfl1", "sfl11"], ["sfl1", "sfl2"], ["sfl1", "sfl3"], ["sfl1", "sfl4"], ["sfl1", "sfl40"], ["sfl1", "sfl5"], ["sfl1", "sfl6"], ["sfl1", "sfl7"], ["sfl1", "sfl8"],
-        ["sfl1", "sfl9"], ["sfl10", "sfl11"], ["sfl10", "sfl2"], ["sfl10", "sfl3"], ["sfl10", "sfl4"], ["sfl10", "sfl40"], ["sfl10", "sfl5"], ["sfl10", "sfl6"], ["sfl10", "sfl7"], ["sfl10", "sfl8"],
-        ["sfl10", "sfl9"], ["sfl11", "sfl2"], ["sfl11", "sfl3"], ["sfl11", "sfl4"], ["sfl11", "sfl40"], ["sfl11", "sfl5"], ["sfl11", "sfl6"], ["sfl11", "sfl7"], ["sfl11", "sfl8"], ["sfl11", "sfl9"],
-        ["sfl2", "sfl3"], ["sfl2", "sfl4"], ["sfl2", "sfl40"], ["sfl2", "sfl5"], ["sfl2", "sfl6"], ["sfl2", "sfl7"], ["sfl2", "sfl8"], ["sfl2", "sfl9"], ["sfl3", "sfl4"], ["sfl3", "sfl40"],
-        ["sfl3", "sfl5"], ["sfl3", "sfl6"], ["sfl3", "sfl7"], ["sfl3", "sfl8"], ["sfl3", "sfl9"], ["sfl4", "sfl40"], ["sfl4", "sfl5"], ["sfl4", "sfl6"], ["sfl4", "sfl7"], ["sfl4", "sfl8"],
-        ["sfl4", "sfl9"], ["sfl40", "sfl5"], ["sfl40", "sfl6"], ["sfl40", "sfl7"], ["sfl40", "sfl8"], ["sfl40", "sfl9"], ["sfl5", "sfl6"], ["sfl5", "sfl7"], ["sfl5", "sfl8"], ["sfl5", "sfl9"],
-        ["sfl6", "sfl7"], ["sfl6", "sfl8"], ["sfl6", "sfl9"], ["sfl7", "sfl8"], ["sfl7", "sfl9"], ["sfl8", "sfl9"],
-        //left arm oben
-        ["sfl20", "sfl21"], ["sfl20", "sfl22"], ["sfl20", "sfl23"], ["sfl20", "sfl24"], ["sfl20", "sfl25"], ["sfl20", "sfl26"], ["sfl20", "sfl27"], ["sfl20", "sfl28"], ["sfl20", "sfl29"], ["sfl20", "sfl30"],
-        ["sfl20", "sfl41"], ["sfl21", "sfl22"], ["sfl21", "sfl23"], ["sfl21", "sfl24"], ["sfl21", "sfl25"], ["sfl21", "sfl26"], ["sfl21", "sfl27"], ["sfl21", "sfl28"], ["sfl21", "sfl29"], ["sfl21", "sfl30"],
-        ["sfl21", "sfl41"], ["sfl22", "sfl23"], ["sfl22", "sfl24"], ["sfl22", "sfl25"], ["sfl22", "sfl26"], ["sfl22", "sfl27"], ["sfl22", "sfl28"], ["sfl22", "sfl29"], ["sfl22", "sfl30"], ["sfl22", "sfl41"],
-        ["sfl23", "sfl24"], ["sfl23", "sfl25"], ["sfl23", "sfl26"], ["sfl23", "sfl27"], ["sfl23", "sfl28"], ["sfl23", "sfl29"], ["sfl23", "sfl30"], ["sfl23", "sfl41"], ["sfl24", "sfl25"], ["sfl24", "sfl26"],
-        ["sfl24", "sfl27"], ["sfl24", "sfl28"], ["sfl24", "sfl29"], ["sfl24", "sfl30"], ["sfl24", "sfl41"], ["sfl25", "sfl26"], ["sfl25", "sfl27"], ["sfl25", "sfl28"], ["sfl25", "sfl29"], ["sfl25", "sfl30"],
-        ["sfl25", "sfl41"], ["sfl26", "sfl27"], ["sfl26", "sfl28"], ["sfl26", "sfl29"], ["sfl26", "sfl30"], ["sfl26", "sfl41"], ["sfl27", "sfl28"], ["sfl27", "sfl29"], ["sfl27", "sfl30"], ["sfl27", "sfl41"],
-        ["sfl28", "sfl29"], ["sfl28", "sfl30"], ["sfl28", "sfl41"], ["sfl29", "sfl30"], ["sfl29", "sfl41"], ["sfl30", "sfl41"],
-        //left side ding
-        ["sfl40", "sfl41"], ["sfl40", "sfl42"], ["sfl40", "sfl43"], ["sfl40", "sfl44"], ["sfl40", "sfl45"], ["sfl40", "sfl46"], ["sfl40", "sfl47"], ["sfl40", "sflw1"], ["sfl40", "sflw2"], ["sfl40", "sflw3"],
-        ["sfl41", "sfl42"], ["sfl41", "sfl43"], ["sfl41", "sfl44"], ["sfl41", "sfl45"], ["sfl41", "sfl46"], ["sfl41", "sfl47"], ["sfl41", "sflw1"], ["sfl41", "sflw2"], ["sfl41", "sflw3"], ["sfl42", "sfl43"],
-        ["sfl42", "sfl44"], ["sfl42", "sfl45"], ["sfl42", "sfl46"], ["sfl42", "sfl47"], ["sfl42", "sflw1"], ["sfl42", "sflw2"], ["sfl42", "sflw3"], ["sfl43", "sfl44"], ["sfl43", "sfl45"], ["sfl43", "sfl46"],
-        ["sfl43", "sfl47"], ["sfl43", "sflw1"], ["sfl43", "sflw2"], ["sfl43", "sflw3"], ["sfl44", "sfl45"], ["sfl44", "sfl46"], ["sfl44", "sfl47"], ["sfl44", "sflw1"], ["sfl44", "sflw2"], ["sfl44", "sflw3"],
-        ["sfl45", "sfl46"], ["sfl45", "sfl47"], ["sfl45", "sflw1"], ["sfl45", "sflw2"], ["sfl45", "sflw3"], ["sfl46", "sfl47"], ["sfl46", "sflw1"], ["sfl46", "sflw2"], ["sfl46", "sflw3"], ["sfl47", "sflw1"],
-        ["sfl47", "sflw2"], ["sfl47", "sflw3"], ["sflw1", "sflw2"], ["sflw1", "sflw3"], ["sflw2", "sflw3"],
+  //Misc
+  ["sfr11","sfr41"],["sfr27","sfr40"]
+  //Mittlere Verbindung
+  ["bul6", "bur6"], ["bul6", "f1l"], ["bul6", "f1r"], ["bul6", "f2l"], ["bul6", "f2r"], ["bul6", "f4l"], ["bul6", "f4r"], ["bul6", "sfl1"], ["bul6", "sfl2"], ["bul6", "sfl20"],
+  ["bul6", "sfl21"], ["bul6", "sfr1"], ["bul6", "sfr2"], ["bul6", "sfr20"], ["bul6", "sfr21"], ["bur6", "f1l"], ["bur6", "f1r"], ["bur6", "f2l"], ["bur6", "f2r"], ["bur6", "f4l"],
+  ["bur6", "f4r"], ["bur6", "sfl1"], ["bur6", "sfl2"], ["bur6", "sfl20"], ["bur6", "sfl21"], ["bur6", "sfr1"], ["bur6", "sfr2"], ["bur6", "sfr20"], ["bur6", "sfr21"], ["f1l", "f1r"],
+  ["f1l", "f2l"], ["f1l", "f2r"], ["f1l", "f4l"], ["f1l", "f4r"], ["f1l", "sfl1"], ["f1l", "sfl2"], ["f1l", "sfl20"], ["f1l", "sfl21"], ["f1l", "sfr1"], ["f1l", "sfr2"],
+  ["f1l", "sfr20"], ["f1l", "sfr21"], ["f1r", "f2l"], ["f1r", "f2r"], ["f1r", "f4l"], ["f1r", "f4r"], ["f1r", "sfl1"], ["f1r", "sfl2"], ["f1r", "sfl20"], ["f1r", "sfl21"],
+  ["f1r", "sfr1"], ["f1r", "sfr2"], ["f1r", "sfr20"], ["f1r", "sfr21"], ["f2l", "f2r"], ["f2l", "f4l"], ["f2l", "f4r"], ["f2l", "sfl1"], ["f2l", "sfl2"], ["f2l", "sfl20"],
+  ["f2l", "sfl21"], ["f2l", "sfr1"], ["f2l", "sfr2"], ["f2l", "sfr20"], ["f2l", "sfr21"], ["f2r", "f4l"], ["f2r", "f4r"], ["f2r", "sfl1"], ["f2r", "sfl2"], ["f2r", "sfl20"],
+  ["f2r", "sfl21"], ["f2r", "sfr1"], ["f2r", "sfr2"], ["f2r", "sfr20"], ["f2r", "sfr21"], ["f4l", "f4r"], ["f4l", "sfl1"], ["f4l", "sfl2"], ["f4l", "sfl20"], ["f4l", "sfl21"],
+  ["f4l", "sfr1"], ["f4l", "sfr2"], ["f4l", "sfr20"], ["f4l", "sfr21"], ["f4r", "sfl1"], ["f4r", "sfl2"], ["f4r", "sfl20"], ["f4r", "sfl21"], ["f4r", "sfr1"], ["f4r", "sfr2"],
+  ["f4r", "sfr20"], ["f4r", "sfr21"], ["sfl1", "sfl20"], ["sfl1", "sfl21"], ["sfl1", "sfr1"], ["sfl1", "sfr2"], ["sfl1", "sfr20"], ["sfl1", "sfr21"], ["sfl2", "sfl20"],
+  ["sfl2", "sfl21"], ["sfl2", "sfr1"], ["sfl2", "sfr2"], ["sfl2", "sfr20"], ["sfl2", "sfr21"], ["sfl20", "sfr1"], ["sfl20", "sfr2"], ["sfl20", "sfr20"], ["sfl20", "sfr21"],
+  ["sfl21", "sfr1"], ["sfl21", "sfr2"], ["sfl21", "sfr20"], ["sfl21", "sfr21"],  ["sfr1", "sfr20"], ["sfr1", "sfr21"], ["sfr2", "sfr20"], ["sfr2", "sfr21"],
+
+  //right arm oben
+  ["sfr20", "sfr21"], ["sfr20", "sfr22"], ["sfr20", "sfr23"], ["sfr20", "sfr24"], ["sfr20", "sfr25"], ["sfr20", "sfr26"], ["sfr20", "sfr27"], ["sfr20", "sfr28"], ["sfr20", "sfr29"], ["sfr20", "sfr30"],
+  ["sfr20", "sfr31"], ["sfr20", "sfr41"], ["sfr21", "sfr22"], ["sfr21", "sfr23"], ["sfr21", "sfr24"], ["sfr21", "sfr25"], ["sfr21", "sfr26"], ["sfr21", "sfr27"], ["sfr21", "sfr28"], ["sfr21", "sfr29"],
+  ["sfr21", "sfr30"], ["sfr21", "sfr31"], ["sfr21", "sfr41"], ["sfr22", "sfr23"], ["sfr22", "sfr24"], ["sfr22", "sfr25"], ["sfr22", "sfr26"], ["sfr22", "sfr27"], ["sfr22", "sfr28"], ["sfr22", "sfr29"],
+  ["sfr22", "sfr30"], ["sfr22", "sfr31"], ["sfr22", "sfr41"], ["sfr23", "sfr24"], ["sfr23", "sfr25"], ["sfr23", "sfr26"], ["sfr23", "sfr27"], ["sfr23", "sfr28"], ["sfr23", "sfr29"], ["sfr23", "sfr30"],
+  ["sfr23", "sfr31"], ["sfr23", "sfr41"], ["sfr24", "sfr25"], ["sfr24", "sfr26"], ["sfr24", "sfr27"], ["sfr24", "sfr28"], ["sfr24", "sfr29"], ["sfr24", "sfr30"], ["sfr24", "sfr31"], ["sfr24", "sfr41"],
+  ["sfr25", "sfr26"], ["sfr25", "sfr27"], ["sfr25", "sfr28"], ["sfr25", "sfr29"], ["sfr25", "sfr30"], ["sfr25", "sfr31"], ["sfr25", "sfr41"], ["sfr26", "sfr27"], ["sfr26", "sfr28"], ["sfr26", "sfr29"],
+  ["sfr26", "sfr30"], ["sfr26", "sfr31"], ["sfr26", "sfr41"], ["sfr27", "sfr28"], ["sfr27", "sfr29"], ["sfr27", "sfr30"], ["sfr27", "sfr31"], ["sfr27", "sfr41"], ["sfr28", "sfr29"], ["sfr28", "sfr30"],
+  ["sfr28", "sfr31"], ["sfr28", "sfr41"], ["sfr29", "sfr30"], ["sfr29", "sfr31"], ["sfr29", "sfr41"], ["sfr30", "sfr31"], ["sfr30", "sfr41"], ["sfr31", "sfr41"],
+
+  //right arm unten
+  ["sfr1", "sfr10"], ["sfr1", "sfr11"], ["sfr1", "sfr12"], ["sfr1", "sfr13"], ["sfr1", "sfr14"], ["sfr1", "sfr15"], ["sfr1", "sfr16"], ["sfr1", "sfr17"], ["sfr1", "sfr18"], ["sfr1", "sfr2"],
+  ["sfr1", "sfr3"], ["sfr1", "sfr4"], ["sfr1", "sfr40"], ["sfr1", "sfr5"], ["sfr1", "sfr6"], ["sfr1", "sfr7"], ["sfr1", "sfr8"], ["sfr1", "sfr9"], ["sfr10", "sfr11"], ["sfr10", "sfr12"],
+  ["sfr10", "sfr13"], ["sfr10", "sfr14"], ["sfr10", "sfr15"], ["sfr10", "sfr16"], ["sfr10", "sfr17"], ["sfr10", "sfr18"], ["sfr10", "sfr2"], ["sfr10", "sfr3"], ["sfr10", "sfr4"], ["sfr10", "sfr40"],
+  ["sfr10", "sfr5"], ["sfr10", "sfr6"], ["sfr10", "sfr7"], ["sfr10", "sfr8"], ["sfr10", "sfr9"], ["sfr11", "sfr12"], ["sfr11", "sfr13"], ["sfr11", "sfr14"], ["sfr11", "sfr15"], ["sfr11", "sfr16"],
+  ["sfr11", "sfr17"], ["sfr11", "sfr18"], ["sfr11", "sfr2"], ["sfr11", "sfr3"], ["sfr11", "sfr4"], ["sfr11", "sfr40"], ["sfr11", "sfr5"], ["sfr11", "sfr6"], ["sfr11", "sfr7"], ["sfr11", "sfr8"],
+  ["sfr11", "sfr9"], ["sfr12", "sfr13"], ["sfr12", "sfr14"], ["sfr12", "sfr15"], ["sfr12", "sfr16"], ["sfr12", "sfr17"], ["sfr12", "sfr18"], ["sfr12", "sfr2"], ["sfr12", "sfr3"], ["sfr12", "sfr4"],
+  ["sfr12", "sfr40"], ["sfr12", "sfr5"], ["sfr12", "sfr6"], ["sfr12", "sfr7"], ["sfr12", "sfr8"], ["sfr12", "sfr9"], ["sfr13", "sfr14"], ["sfr13", "sfr15"], ["sfr13", "sfr16"], ["sfr13", "sfr17"],
+  ["sfr13", "sfr18"], ["sfr13", "sfr2"], ["sfr13", "sfr3"], ["sfr13", "sfr4"], ["sfr13", "sfr40"], ["sfr13", "sfr5"], ["sfr13", "sfr6"], ["sfr13", "sfr7"], ["sfr13", "sfr8"], ["sfr13", "sfr9"],
+  ["sfr14", "sfr15"], ["sfr14", "sfr16"], ["sfr14", "sfr17"], ["sfr14", "sfr18"], ["sfr14", "sfr2"], ["sfr14", "sfr3"], ["sfr14", "sfr4"], ["sfr14", "sfr40"], ["sfr14", "sfr5"], ["sfr14", "sfr6"],
+  ["sfr14", "sfr7"], ["sfr14", "sfr8"], ["sfr14", "sfr9"], ["sfr15", "sfr16"], ["sfr15", "sfr17"], ["sfr15", "sfr18"], ["sfr15", "sfr2"], ["sfr15", "sfr3"], ["sfr15", "sfr4"], ["sfr15", "sfr40"],
+  ["sfr15", "sfr5"], ["sfr15", "sfr6"], ["sfr15", "sfr7"], ["sfr15", "sfr8"], ["sfr15", "sfr9"], ["sfr16", "sfr17"], ["sfr16", "sfr18"], ["sfr16", "sfr2"], ["sfr16", "sfr3"], ["sfr16", "sfr4"],
+  ["sfr16", "sfr40"], ["sfr16", "sfr5"], ["sfr16", "sfr6"], ["sfr16", "sfr7"], ["sfr16", "sfr8"], ["sfr16", "sfr9"], ["sfr17", "sfr18"], ["sfr17", "sfr2"], ["sfr17", "sfr3"], ["sfr17", "sfr4"],
+  ["sfr17", "sfr40"], ["sfr17", "sfr5"], ["sfr17", "sfr6"], ["sfr17", "sfr7"], ["sfr17", "sfr8"], ["sfr17", "sfr9"], ["sfr18", "sfr2"], ["sfr18", "sfr3"], ["sfr18", "sfr4"], ["sfr18", "sfr40"],
+  ["sfr18", "sfr5"], ["sfr18", "sfr6"], ["sfr18", "sfr7"], ["sfr18", "sfr8"], ["sfr18", "sfr9"], ["sfr2", "sfr3"], ["sfr2", "sfr4"], ["sfr2", "sfr40"], ["sfr2", "sfr5"], ["sfr2", "sfr6"],
+  ["sfr2", "sfr7"], ["sfr2", "sfr8"], ["sfr2", "sfr9"], ["sfr3", "sfr4"], ["sfr3", "sfr40"], ["sfr3", "sfr5"], ["sfr3", "sfr6"], ["sfr3", "sfr7"], ["sfr3", "sfr8"], ["sfr3", "sfr9"],
+  ["sfr4", "sfr40"], ["sfr4", "sfr5"], ["sfr4", "sfr6"], ["sfr4", "sfr7"], ["sfr4", "sfr8"], ["sfr4", "sfr9"], ["sfr40", "sfr5"], ["sfr40", "sfr6"], ["sfr40", "sfr7"], ["sfr40", "sfr8"],
+  ["sfr40", "sfr9"], ["sfr5", "sfr6"], ["sfr5", "sfr7"], ["sfr5", "sfr8"], ["sfr5", "sfr9"], ["sfr6", "sfr7"], ["sfr6", "sfr8"], ["sfr6", "sfr9"], ["sfr7", "sfr8"], ["sfr7", "sfr9"],
+  ["sfr8", "sfr9"],
+  //right side ding
+  ["sfr40", "sfr41"], ["sfr40", "sfr42"], ["sfr40", "sfr43"], ["sfr40", "sfr44"], ["sfr40", "sfr45"], ["sfr40", "sfr46"], ["sfr40", "sfr47"], ["sfr40", "sfr48"], ["sfr40", "sfr49"], ["sfr40", "sfrw1"],
+  ["sfr40", "sfrw2"], ["sfr40", "sfrw3"], ["sfr41", "sfr42"], ["sfr41", "sfr43"], ["sfr41", "sfr44"], ["sfr41", "sfr45"], ["sfr41", "sfr46"], ["sfr41", "sfr47"], ["sfr41", "sfr48"], ["sfr41", "sfr49"],
+  ["sfr41", "sfrw1"], ["sfr41", "sfrw2"], ["sfr41", "sfrw3"], ["sfr42", "sfr43"], ["sfr42", "sfr44"], ["sfr42", "sfr45"], ["sfr42", "sfr46"], ["sfr42", "sfr47"], ["sfr42", "sfr48"], ["sfr42", "sfr49"],
+  ["sfr42", "sfrw1"], ["sfr42", "sfrw2"], ["sfr42", "sfrw3"], ["sfr43", "sfr44"], ["sfr43", "sfr45"], ["sfr43", "sfr46"], ["sfr43", "sfr47"], ["sfr43", "sfr48"], ["sfr43", "sfr49"], ["sfr43", "sfrw1"],
+  ["sfr43", "sfrw2"], ["sfr43", "sfrw3"], ["sfr44", "sfr45"], ["sfr44", "sfr46"], ["sfr44", "sfr47"], ["sfr44", "sfr48"], ["sfr44", "sfr49"], ["sfr44", "sfrw1"], ["sfr44", "sfrw2"], ["sfr44", "sfrw3"],
+  ["sfr45", "sfr46"], ["sfr45", "sfr47"], ["sfr45", "sfr48"], ["sfr45", "sfr49"], ["sfr45", "sfrw1"], ["sfr45", "sfrw2"], ["sfr45", "sfrw3"], ["sfr46", "sfr47"], ["sfr46", "sfr48"], ["sfr46", "sfr49"],
+  ["sfr46", "sfrw1"], ["sfr46", "sfrw2"], ["sfr46", "sfrw3"], ["sfr47", "sfr48"], ["sfr47", "sfr49"], ["sfr47", "sfrw1"], ["sfr47", "sfrw2"], ["sfr47", "sfrw3"], ["sfr48", "sfr49"], ["sfr48", "sfrw1"],
+  ["sfr48", "sfrw2"], ["sfr48", "sfrw3"], ["sfr49", "sfrw1"], ["sfr49", "sfrw2"], ["sfr49", "sfrw3"], ["sfrw1", "sfrw2"], ["sfrw1", "sfrw3"], ["sfrw2", "sfrw3"],
+
+  //Misc
+  ["sfl11","sfl41"],["sfl27","sfl40"]
+  //left arm oben
+  ["sfl20", "sfl21"], ["sfl20", "sfl22"], ["sfl20", "sfl23"], ["sfl20", "sfl24"], ["sfl20", "sfl25"], ["sfl20", "sfl26"], ["sfl20", "sfl27"], ["sfl20", "sfl28"], ["sfl20", "sfl29"], ["sfl20", "sfl30"],
+  ["sfl20", "sfl31"], ["sfl20", "sfl41"], ["sfl21", "sfl22"], ["sfl21", "sfl23"], ["sfl21", "sfl24"], ["sfl21", "sfl25"], ["sfl21", "sfl26"], ["sfl21", "sfl27"], ["sfl21", "sfl28"], ["sfl21", "sfl29"],
+  ["sfl21", "sfl30"], ["sfl21", "sfl31"], ["sfl21", "sfl41"], ["sfl22", "sfl23"], ["sfl22", "sfl24"], ["sfl22", "sfl25"], ["sfl22", "sfl26"], ["sfl22", "sfl27"], ["sfl22", "sfl28"], ["sfl22", "sfl29"],
+  ["sfl22", "sfl30"], ["sfl22", "sfl31"], ["sfl22", "sfl41"], ["sfl23", "sfl24"], ["sfl23", "sfl25"], ["sfl23", "sfl26"], ["sfl23", "sfl27"], ["sfl23", "sfl28"], ["sfl23", "sfl29"], ["sfl23", "sfl30"],
+  ["sfl23", "sfl31"], ["sfl23", "sfl41"], ["sfl24", "sfl25"], ["sfl24", "sfl26"], ["sfl24", "sfl27"], ["sfl24", "sfl28"], ["sfl24", "sfl29"], ["sfl24", "sfl30"], ["sfl24", "sfl31"], ["sfl24", "sfl41"],
+  ["sfl25", "sfl26"], ["sfl25", "sfl27"], ["sfl25", "sfl28"], ["sfl25", "sfl29"], ["sfl25", "sfl30"], ["sfl25", "sfl31"], ["sfl25", "sfl41"], ["sfl26", "sfl27"], ["sfl26", "sfl28"], ["sfl26", "sfl29"],
+  ["sfl26", "sfl30"], ["sfl26", "sfl31"], ["sfl26", "sfl41"], ["sfl27", "sfl28"], ["sfl27", "sfl29"], ["sfl27", "sfl30"], ["sfl27", "sfl31"], ["sfl27", "sfl41"], ["sfl28", "sfl29"], ["sfl28", "sfl30"],
+  ["sfl28", "sfl31"], ["sfl28", "sfl41"], ["sfl29", "sfl30"], ["sfl29", "sfl31"], ["sfl29", "sfl41"], ["sfl30", "sfl31"], ["sfl30", "sfl41"], ["sfl31", "sfl41"],
+
+  //left arm unten
+  ["sfl1", "sfl10"], ["sfl1", "sfl11"], ["sfl1", "sfl12"], ["sfl1", "sfl13"], ["sfl1", "sfl14"], ["sfl1", "sfl15"], ["sfl1", "sfl16"], ["sfl1", "sfl17"], ["sfl1", "sfl18"], ["sfl1", "sfl2"],
+  ["sfl1", "sfl3"], ["sfl1", "sfl4"], ["sfl1", "sfl40"], ["sfl1", "sfl5"], ["sfl1", "sfl6"], ["sfl1", "sfl7"], ["sfl1", "sfl8"], ["sfl1", "sfl9"], ["sfl10", "sfl11"], ["sfl10", "sfl12"],
+  ["sfl10", "sfl13"], ["sfl10", "sfl14"], ["sfl10", "sfl15"], ["sfl10", "sfl16"], ["sfl10", "sfl17"], ["sfl10", "sfl18"], ["sfl10", "sfl2"], ["sfl10", "sfl3"], ["sfl10", "sfl4"], ["sfl10", "sfl40"],
+  ["sfl10", "sfl5"], ["sfl10", "sfl6"], ["sfl10", "sfl7"], ["sfl10", "sfl8"], ["sfl10", "sfl9"], ["sfl11", "sfl12"], ["sfl11", "sfl13"], ["sfl11", "sfl14"], ["sfl11", "sfl15"], ["sfl11", "sfl16"],
+  ["sfl11", "sfl17"], ["sfl11", "sfl18"], ["sfl11", "sfl2"], ["sfl11", "sfl3"], ["sfl11", "sfl4"], ["sfl11", "sfl40"], ["sfl11", "sfl5"], ["sfl11", "sfl6"], ["sfl11", "sfl7"], ["sfl11", "sfl8"],
+  ["sfl11", "sfl9"], ["sfl12", "sfl13"], ["sfl12", "sfl14"], ["sfl12", "sfl15"], ["sfl12", "sfl16"], ["sfl12", "sfl17"], ["sfl12", "sfl18"], ["sfl12", "sfl2"], ["sfl12", "sfl3"], ["sfl12", "sfl4"],
+  ["sfl12", "sfl40"], ["sfl12", "sfl5"], ["sfl12", "sfl6"], ["sfl12", "sfl7"], ["sfl12", "sfl8"], ["sfl12", "sfl9"], ["sfl13", "sfl14"], ["sfl13", "sfl15"], ["sfl13", "sfl16"], ["sfl13", "sfl17"],
+  ["sfl13", "sfl18"], ["sfl13", "sfl2"], ["sfl13", "sfl3"], ["sfl13", "sfl4"], ["sfl13", "sfl40"], ["sfl13", "sfl5"], ["sfl13", "sfl6"], ["sfl13", "sfl7"], ["sfl13", "sfl8"], ["sfl13", "sfl9"],
+  ["sfl14", "sfl15"], ["sfl14", "sfl16"], ["sfl14", "sfl17"], ["sfl14", "sfl18"], ["sfl14", "sfl2"], ["sfl14", "sfl3"], ["sfl14", "sfl4"], ["sfl14", "sfl40"], ["sfl14", "sfl5"], ["sfl14", "sfl6"],
+  ["sfl14", "sfl7"], ["sfl14", "sfl8"], ["sfl14", "sfl9"], ["sfl15", "sfl16"], ["sfl15", "sfl17"], ["sfl15", "sfl18"], ["sfl15", "sfl2"], ["sfl15", "sfl3"], ["sfl15", "sfl4"], ["sfl15", "sfl40"],
+  ["sfl15", "sfl5"], ["sfl15", "sfl6"], ["sfl15", "sfl7"], ["sfl15", "sfl8"], ["sfl15", "sfl9"], ["sfl16", "sfl17"], ["sfl16", "sfl18"], ["sfl16", "sfl2"], ["sfl16", "sfl3"], ["sfl16", "sfl4"],
+  ["sfl16", "sfl40"], ["sfl16", "sfl5"], ["sfl16", "sfl6"], ["sfl16", "sfl7"], ["sfl16", "sfl8"], ["sfl16", "sfl9"], ["sfl17", "sfl18"], ["sfl17", "sfl2"], ["sfl17", "sfl3"], ["sfl17", "sfl4"],
+  ["sfl17", "sfl40"], ["sfl17", "sfl5"], ["sfl17", "sfl6"], ["sfl17", "sfl7"], ["sfl17", "sfl8"], ["sfl17", "sfl9"], ["sfl18", "sfl2"], ["sfl18", "sfl3"], ["sfl18", "sfl4"], ["sfl18", "sfl40"],
+  ["sfl18", "sfl5"], ["sfl18", "sfl6"], ["sfl18", "sfl7"], ["sfl18", "sfl8"], ["sfl18", "sfl9"], ["sfl2", "sfl3"], ["sfl2", "sfl4"], ["sfl2", "sfl40"], ["sfl2", "sfl5"], ["sfl2", "sfl6"],
+  ["sfl2", "sfl7"], ["sfl2", "sfl8"], ["sfl2", "sfl9"], ["sfl3", "sfl4"], ["sfl3", "sfl40"], ["sfl3", "sfl5"], ["sfl3", "sfl6"], ["sfl3", "sfl7"], ["sfl3", "sfl8"], ["sfl3", "sfl9"],
+  ["sfl4", "sfl40"], ["sfl4", "sfl5"], ["sfl4", "sfl6"], ["sfl4", "sfl7"], ["sfl4", "sfl8"], ["sfl4", "sfl9"], ["sfl40", "sfl5"], ["sfl40", "sfl6"], ["sfl40", "sfl7"], ["sfl40", "sfl8"],
+  ["sfl40", "sfl9"], ["sfl5", "sfl6"], ["sfl5", "sfl7"], ["sfl5", "sfl8"], ["sfl5", "sfl9"], ["sfl6", "sfl7"], ["sfl6", "sfl8"], ["sfl6", "sfl9"], ["sfl7", "sfl8"], ["sfl7", "sfl9"],
+  ["sfl8", "sfl9"],
+  //left side ding
+  ["sfl40", "sfl41"], ["sfl40", "sfl42"], ["sfl40", "sfl43"], ["sfl40", "sfl44"], ["sfl40", "sfl45"], ["sfl40", "sfl46"], ["sfl40", "sfl47"], ["sfl40", "sfl48"], ["sfl40", "sfl49"], ["sfl40", "sflw1"],
+  ["sfl40", "sflw2"], ["sfl40", "sflw3"], ["sfl41", "sfl42"], ["sfl41", "sfl43"], ["sfl41", "sfl44"], ["sfl41", "sfl45"], ["sfl41", "sfl46"], ["sfl41", "sfl47"], ["sfl41", "sfl48"], ["sfl41", "sfl49"],
+  ["sfl41", "sflw1"], ["sfl41", "sflw2"], ["sfl41", "sflw3"], ["sfl42", "sfl43"], ["sfl42", "sfl44"], ["sfl42", "sfl45"], ["sfl42", "sfl46"], ["sfl42", "sfl47"], ["sfl42", "sfl48"], ["sfl42", "sfl49"],
+  ["sfl42", "sflw1"], ["sfl42", "sflw2"], ["sfl42", "sflw3"], ["sfl43", "sfl44"], ["sfl43", "sfl45"], ["sfl43", "sfl46"], ["sfl43", "sfl47"], ["sfl43", "sfl48"], ["sfl43", "sfl49"], ["sfl43", "sflw1"],
+  ["sfl43", "sflw2"], ["sfl43", "sflw3"], ["sfl44", "sfl45"], ["sfl44", "sfl46"], ["sfl44", "sfl47"], ["sfl44", "sfl48"], ["sfl44", "sfl49"], ["sfl44", "sflw1"], ["sfl44", "sflw2"], ["sfl44", "sflw3"],
+  ["sfl45", "sfl46"], ["sfl45", "sfl47"], ["sfl45", "sfl48"], ["sfl45", "sfl49"], ["sfl45", "sflw1"], ["sfl45", "sflw2"], ["sfl45", "sflw3"], ["sfl46", "sfl47"], ["sfl46", "sfl48"], ["sfl46", "sfl49"],
+  ["sfl46", "sflw1"], ["sfl46", "sflw2"], ["sfl46", "sflw3"], ["sfl47", "sfl48"], ["sfl47", "sfl49"], ["sfl47", "sflw1"], ["sfl47", "sflw2"], ["sfl47", "sflw3"], ["sfl48", "sfl49"], ["sfl48", "sflw1"],
+  ["sfl48", "sflw2"], ["sfl48", "sflw3"], ["sfl49", "sflw1"], ["sfl49", "sflw2"], ["sfl49", "sflw3"], ["sflw1", "sflw2"], ["sflw1", "sflw3"], ["sflw2", "sflw3"],
 
 
-        //Federung
-        ["b31", "c1"], ["b31", "c1l"], ["b31", "c1r"], ["b31", "f3l"], ["b31", "f3r"], ["b31", "f4l"], ["b31", "f4r"], ["b31", "rm1"], ["b31", "rm2"], ["b31", "sflb1"],
-        ["b31", "sflb2"], ["b31", "sfrb1"], ["b31", "sfrb2"], ["c1", "c1l"], ["c1", "c1r"], ["c1", "f3l"], ["c1", "f3r"], ["c1", "f4l"], ["c1", "f4r"], ["c1", "rm1"],
-        ["c1", "rm2"], ["c1", "sflb1"], ["c1", "sflb2"], ["c1", "sfrb1"], ["c1", "sfrb2"], ["c1l", "c1r"], ["c1l", "f3l"], ["c1l", "f3r"], ["c1l", "f4l"], ["c1l", "f4r"],
-        ["c1l", "rm1"], ["c1l", "rm2"], ["c1l", "sflb1"], ["c1l", "sflb2"], ["c1l", "sfrb1"], ["c1l", "sfrb2"], ["c1r", "f3l"], ["c1r", "f3r"], ["c1r", "f4l"], ["c1r", "f4r"],
-        ["c1r", "rm1"], ["c1r", "rm2"], ["c1r", "sflb1"], ["c1r", "sflb2"], ["c1r", "sfrb1"], ["c1r", "sfrb2"], ["f3l", "f3r"], ["f3l", "f4l"], ["f3l", "f4r"], ["f3l", "rm1"],
-        ["f3l", "rm2"], ["f3l", "sflb1"], ["f3l", "sflb2"], ["f3l", "sfrb1"], ["f3l", "sfrb2"], ["f3r", "f4l"], ["f3r", "f4r"], ["f3r", "rm1"], ["f3r", "rm2"], ["f3r", "sflb1"],
-        ["f3r", "sflb2"], ["f3r", "sfrb1"], ["f3r", "sfrb2"], ["f4l", "rm1"], ["f4l", "rm2"], ["f4l", "sflb1"], ["f4l", "sflb2"], ["f4l", "sfrb1"], ["f4l", "sfrb2"],
-        ["f4r", "rm1"], ["f4r", "rm2"], ["f4r", "sflb1"], ["f4r", "sflb2"], ["f4r", "sfrb1"], ["f4r", "sfrb2"], ["rm1", "rm2"], ["rm1", "sflb1"], ["rm1", "sflb2"], ["rm1", "sfrb1"],
-        ["rm1", "sfrb2"], ["rm2", "sflb1"], ["rm2", "sflb2"], ["rm2", "sfrb1"], ["rm2", "sfrb2"], ["sflb1", "sflb2"], ["sflb1", "sfrb1"], ["sflb1", "sfrb2"], ["sflb2", "sfrb1"], ["sflb2", "sfrb2"],
-        ["sfrb1", "sfrb2"],
+  //Federung
+  ["b31", "c1"], ["b31", "c1l"], ["b31", "c1r"], ["b31", "f3l"], ["b31", "f3r"], ["b31", "f4l"], ["b31", "f4r"], ["b31", "rm1"], ["b31", "rm2"], ["b31", "sflb1"],
+  ["b31", "sflb2"], ["b31", "sfrb1"], ["b31", "sfrb2"], ["c1", "c1l"], ["c1", "c1r"], ["c1", "f3l"], ["c1", "f3r"], ["c1", "f4l"], ["c1", "f4r"], ["c1", "rm1"],
+  ["c1", "rm2"], ["c1", "sflb1"], ["c1", "sflb2"], ["c1", "sfrb1"], ["c1", "sfrb2"], ["c1l", "c1r"], ["c1l", "f3l"], ["c1l", "f3r"], ["c1l", "f4l"], ["c1l", "f4r"],
+  ["c1l", "rm1"], ["c1l", "rm2"], ["c1l", "sflb1"], ["c1l", "sflb2"], ["c1l", "sfrb1"], ["c1l", "sfrb2"], ["c1r", "f3l"], ["c1r", "f3r"], ["c1r", "f4l"], ["c1r", "f4r"],
+  ["c1r", "rm1"], ["c1r", "rm2"], ["c1r", "sflb1"], ["c1r", "sflb2"], ["c1r", "sfrb1"], ["c1r", "sfrb2"], ["f3l", "f3r"], ["f3l", "f4l"], ["f3l", "f4r"], ["f3l", "rm1"],
+  ["f3l", "rm2"], ["f3l", "sflb1"], ["f3l", "sflb2"], ["f3l", "sfrb1"], ["f3l", "sfrb2"], ["f3r", "f4l"], ["f3r", "f4r"], ["f3r", "rm1"], ["f3r", "rm2"], ["f3r", "sflb1"],
+  ["f3r", "sflb2"], ["f3r", "sfrb1"], ["f3r", "sfrb2"], ["f4l", "rm1"], ["f4l", "rm2"], ["f4l", "sflb1"], ["f4l", "sflb2"], ["f4l", "sfrb1"], ["f4l", "sfrb2"],
+  ["f4r", "rm1"], ["f4r", "rm2"], ["f4r", "sflb1"], ["f4r", "sflb2"], ["f4r", "sfrb1"], ["f4r", "sfrb2"], ["rm1", "rm2"], ["rm1", "sflb1"], ["rm1", "sflb2"], ["rm1", "sfrb1"],
+  ["rm1", "sfrb2"], ["rm2", "sflb1"], ["rm2", "sflb2"], ["rm2", "sfrb1"], ["rm2", "sfrb2"], ["sflb1", "sflb2"], ["sflb1", "sfrb1"], ["sflb1", "sfrb2"], ["sflb2", "sfrb1"], ["sflb2", "sfrb2"],
+  ["sfrb1", "sfrb2"],
 
 
-        //Verbindung miteinander
-        ["sfr22", "sfr3"],["sfr22", "sfr40"], ["sfr22", "sfr9"], ["sfr27", "sfr3"],  ["sfr27", "sfr40"], 
-        ["sfr27", "sfr9"], ["sfr3", "sfr30"], ["sfr3", "sfr41"], ["sfr30", "sfr40"],  ["sfr30", "sfr9"],["sfr41", "sfr9"],
+  //Verbindung miteinander
+  
+  ["sfr3", "sfr30"], ["sfr3", "sfr31"], ["sfr3", "sfr41"], ["sfr30", "sfr40"], ["sfr30", "sfr9"], ["sfr31", "sfr40"],
+  ["sfr31", "sfr9"], ["sfr41", "sfr9"],
 
-        ["sfl22", "sfl3"],["sfl22", "sfl40"], ["sfl22", "sfl9"], ["sfl27", "sfl3"],  ["sfl27", "sfl40"], 
-        ["sfl27", "sfl9"], ["sfl3", "sfl30"], ["sfl3", "sfl41"], ["sfl30", "sfl40"],  ["sfl30", "sfl9"],["sfl41", "sfl9"],
-        
-        ["sfr4","sfr22"],["sfr5","sfr27"],
-        ["sfl4","sfl22"],["sfl5","sfl27"],
-
-        //Räder vom einklappen abhalten
-        {"group":"safety", "type": "|SUPPORT"}
-        ["sfrw2","sfr7"], ["sflw2","sfl7"], 
+{"beamDamp":100}
 
 
 
+  {"group":"federung", "type": "|NORMAL"},
 
 
-        {"group":"federung", "type": "|NORMAL"},
+  ["sfr5","sfrb1", {"type": "|BOUNDED","beamDamp": "$dampening", "beamSpring": "$damperSpring"}],
+  ["sfl5","sflb1", {"type": "BOUNDED","beamDamp": "$dampening", "beamSpring": "$damperSpring"}],
 
+  ["sfr4","sfrb2", {"beamDamp": "$federdamp", "beamSpring": "$federSpring"}],
+  ["sfl4","sflb2", {"beamDamp": "$federdamp", "beamSpring": "$federSpring"}],
 
-        ["sfr5","sfrb1", {"type": "|BOUNDED","beamDamp": "$dampening", "beamSpring": "$damperSpring"}],
-        ["sfl5","sflb1", {"type": "BOUNDED","beamDamp": "$dampening", "beamSpring": "$damperSpring"}],
+  
+],
 
-        ["sfr4","sfrb2", {"beamDamp": "$federdamp", "beamSpring": "$federSpring"}],
-        ["sfl4","sflb2", {"beamDamp": "$federdamp", "beamSpring": "$federSpring"}],
-
-        
-    ],
-
-    "pressureWheels":[
-    ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
-    //some wheel properties
-    {"selfCollision":true},
-    {"radius":1, "tireWidth": 0.4}
-    {"hasTire":true},
-    {"collision":true},
-    {"hubcapBreakGroup":"hubcap_RR"},
-    {"hubcapGroup":"hubcap_RR"},
-    {"axleBeams":["AxleFR"]},
-    {"triangleCollision":true},
-    //wheel is created from here, but using properties from previously loaded common jbeam parts
-    //choosing torque reaction nodes is a very complex topic which depends mainly on whether the differential is mounted to the same "rigid" body as the wheels or not (live axle vs independent suspension) and other things
-    ["FR", "tire_FR", "tire_FR", "sfrw1", "sfrw2",  9999, "sfrw3", 1],
-    {"hubcapBreakGroup":"hubcap_RL"},
-    {"hubcapGroup":"hubcap_RL"},
-    {"axleBeams":["AxleFL"]},
-    ["RL", "tire_FL", "tire_FL", "sflw1", "sflw2", 9999, "sflw3",  -1],
-    //cancel out a bunch of properties before future wheel parts are loaded
-    {"selfCollision":false},
-    {"triangleCollision":false},
-    {"axleBeams":[]},{"disableMeshBreaking":false,"disableTriangleBreaking":false},
-    {"hubcapBreakGroup":""},
-    {"hubcapGroup":""},
-    {"enableHubcaps":false},
-    {"enableTireLbeams":false},
-    {"enableTireSideReinfBeams":false},
-    {"enableTireReinfBeams":false},
-    {"enableTreadReinfBeams":false},
-    {"enableTirePeripheryReinfBeams":false},
-    {"loadSensitivitySlope":""},
-    {"noLoadCoef":""},
-    {"fullLoadCoef":""},
-    {"frictionCoef":""},
-    {"slidingFrictionCoef":""},
-    {"softnessCoef":0.5},
-    {"treadCoef":1.0},
-    ], 
-  }
+  "pressureWheels":[
+  ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+  //some wheel properties
+  {"selfCollision":true},
+  {"radius":1, "tireWidth": 0.4}
+  {"hasTire":true},
+  {"collision":true},
+  {"hubcapBreakGroup":"hubcap_RR"},
+  {"hubcapGroup":"hubcap_RR"},
+  {"axleBeams":["AxleFR"]},
+  {"triangleCollision":true},
+  //wheel is created from here, but using properties from previously loaded common jbeam parts
+  //choosing torque reaction nodes is a very complex topic which depends mainly on whether the differential is mounted to the same "rigid" body as the wheels or not (live axle vs independent suspension) and other things
+  ["FR", "tire_FR", "tire_FR", "sfrw1", "sfrw2",  9999, "sfrw3", 1],
+  {"hubcapBreakGroup":"hubcap_RL"},
+  {"hubcapGroup":"hubcap_RL"},
+  {"axleBeams":["AxleFL"]},
+  ["RL", "tire_FL", "tire_FL", "sflw1", "sflw2", 9999, "sflw3",  -1],
+  //cancel out a bunch of properties before future wheel parts are loaded
+  {"selfCollision":false},
+  {"triangleCollision":false},
+  {"axleBeams":[]},{"disableMeshBreaking":false,"disableTriangleBreaking":false},
+  {"hubcapBreakGroup":""},
+  {"hubcapGroup":""},
+  {"enableHubcaps":false},
+  {"enableTireLbeams":false},
+  {"enableTireSideReinfBeams":false},
+  {"enableTireReinfBeams":false},
+  {"enableTreadReinfBeams":false},
+  {"enableTirePeripheryReinfBeams":false},
+  {"loadSensitivitySlope":""},
+  {"noLoadCoef":""},
+  {"fullLoadCoef":""},
+  {"frictionCoef":""},
+  {"slidingFrictionCoef":""},
+  {"softnessCoef":0.5},
+  {"treadCoef":1.0},
+  ], 
+}
 
   "r_default":{
     "information":{
@@ -315,7 +353,7 @@
       ],
     "nodes":[
         ["id", "posX", "posY", "posZ"],
-        {"group":"r_wheelmount"},
+        {"group":"r_wheelmount","nodeWeight":5},
 
         //Left arm
         ["rsl0",0.433,0.099,-0.031],
@@ -675,7 +713,76 @@
     ["rsr17","sh5"],["rsl17","sh6"]
     {"group":"shocks2", "beamSpring":5000,"beamDamp":5000,"beamPrecompression":1.1},
     ["rsr18","sh3"],["rsl18","sh4"]
+    {"group":"","beamSpring":520000,"beamDamp":580,"beamPrecompression":1},
 ]
+},
+
+"steering":{
+  "information":
+  {
+      "name":"Steering",
+      "description":"Steering for the Vehicle",
+      "author":"Jonny",
+  },
+  "slotType": "steering",
+
+  "flexbodies":[
+    ["mesh", "[group]:", "nonFlexMaterials"],
+    ["steering_left", ["ste_l"], [], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}],
+    ["steering_right", ["ste_r"], [], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}],
+    ["steering_rigid", ["ste_m"], [], {"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}],
+  ],
+  "hydros": [
+        ["id1:","id2:"],
+        {"beamPrecompression":1.0, "beamType":"|NORMAL", "beamLongBound":1, "beamShortBound":1},
+        {"beamSpring":8001000,"beamDamp":50,"beamDeform":"FLT_MAX"},
+        ["ste_r1","sfr45", {"factor": 0.14,"steeringWheelLock":300,"inRate":1.25,"outRate":1.25}],
+        ["ste_l1","sfl45", {"factor":-0.14,"steeringWheelLock":300,"inRate":1.25,"outRate":1.25}],
+        {"beamPrecompression":1.0, "beamType":"|NORMAL", "beamLongBound":1, "beamShortBound":1}
+],
+
+  "nodes":[
+    ["id","posX","posY","posZ"]
+    {"group":"ste_m","nodeWeight":3}
+    ["ste_m1",-0.2,-2.668,0.186],
+    ["ste_m2",-0.062,-2.748,0.17500000000000004],
+    ["ste_m15",0.2,-2.668,0.186],
+    ["ste_m25",0.062,-2.748,0.17500000000000004],
+    ["ste_m3",-0.126,-2.714,-0.207],
+    ["ste_m4",-0.28,-2.6630000000000003,-0.10300000000000001],
+    ["ste_m5",0.15300000000000002,-2.697,-0.20400000000000001],
+    ["ste_m6",-0.116,-2.557,-0.091],
+    ["ste_m7",0.13499999999999998,-2.571,-0.078],
+    ["ste_m8",0.315,-2.6630000000000003,-0.189],
+    ["ste_r1",-0.45500000000000007,-2.6630000000000003,-0.157,{"group":"ste_r"}],
+    ["ste_l1",0.45500000000000007,-2.6630000000000003,-0.157,{"group":"ste_l"}],
+
+  ]
+
+  "beams":[
+    ["id1","id2"],
+    ["f2l", "f2r"], ["f2l", "f4l"], ["f2l", "f4r"], ["f2l", "sfl21"], ["f2l", "sfr21"], ["f2l", "ste_l1"], ["f2l", "ste_m1"], ["f2l", "ste_m15"], ["f2l", "ste_m2"], ["f2l", "ste_m25"],
+    ["f2l", "ste_m3"], ["f2l", "ste_m4"], ["f2l", "ste_m5"], ["f2l", "ste_m6"], ["f2l", "ste_m7"], ["f2l", "ste_m8"], ["f2l", "ste_r1"], ["f2r", "f4l"], ["f2r", "f4r"], ["f2r", "sfl21"],
+    ["f2r", "sfr21"], ["f2r", "ste_l1"], ["f2r", "ste_m1"], ["f2r", "ste_m15"], ["f2r", "ste_m2"], ["f2r", "ste_m25"], ["f2r", "ste_m3"], ["f2r", "ste_m4"], ["f2r", "ste_m5"], ["f2r", "ste_m6"],
+    ["f2r", "ste_m7"], ["f2r", "ste_m8"], ["f2r", "ste_r1"], ["f4l", "f4r"], ["f4l", "sfl21"], ["f4l", "sfr21"], ["f4l", "ste_l1"], ["f4l", "ste_m1"], ["f4l", "ste_m15"], ["f4l", "ste_m2"],
+    ["f4l", "ste_m25"], ["f4l", "ste_m3"], ["f4l", "ste_m4"], ["f4l", "ste_m5"], ["f4l", "ste_m6"], ["f4l", "ste_m7"], ["f4l", "ste_m8"], ["f4l", "ste_r1"], ["f4r", "sfl21"], ["f4r", "sfr21"],
+    ["f4r", "ste_l1"], ["f4r", "ste_m1"], ["f4r", "ste_m15"], ["f4r", "ste_m2"], ["f4r", "ste_m25"], ["f4r", "ste_m3"], ["f4r", "ste_m4"], ["f4r", "ste_m5"], ["f4r", "ste_m6"], ["f4r", "ste_m7"],
+    ["f4r", "ste_m8"], ["f4r", "ste_r1"], ["sfl21", "sfr21"], ["sfl21", "ste_l1"], ["sfl21", "ste_m1"], ["sfl21", "ste_m15"], ["sfl21", "ste_m2"], ["sfl21", "ste_m25"], ["sfl21", "ste_m3"], ["sfl21", "ste_m4"],
+    ["sfl21", "ste_m5"], ["sfl21", "ste_m6"], ["sfl21", "ste_m7"], ["sfl21", "ste_m8"], ["sfl21", "ste_r1"], ["sfr21", "ste_l1"], ["sfr21", "ste_m1"], ["sfr21", "ste_m15"], ["sfr21", "ste_m2"], ["sfr21", "ste_m25"],
+    ["sfr21", "ste_m3"], ["sfr21", "ste_m4"], ["sfr21", "ste_m5"], ["sfr21", "ste_m6"], ["sfr21", "ste_m7"], ["sfr21", "ste_m8"], ["sfr21", "ste_r1"], ["ste_l1", "ste_m1"], ["ste_l1", "ste_m15"], ["ste_l1", "ste_m2"],
+    ["ste_l1", "ste_m25"], ["ste_l1", "ste_m3"], ["ste_l1", "ste_m4"], ["ste_l1", "ste_m5"], ["ste_l1", "ste_m6"], ["ste_l1", "ste_m7"], ["ste_l1", "ste_m8"], ["ste_l1", "ste_r1"], ["ste_m1", "ste_m15"], ["ste_m1", "ste_m2"],       
+    ["ste_m1", "ste_m25"], ["ste_m1", "ste_m3"], ["ste_m1", "ste_m4"], ["ste_m1", "ste_m5"], ["ste_m1", "ste_m6"], ["ste_m1", "ste_m7"], ["ste_m1", "ste_m8"], ["ste_m1", "ste_r1"], ["ste_m15", "ste_m2"], ["ste_m15", "ste_m25"],     
+    ["ste_m15", "ste_m3"], ["ste_m15", "ste_m4"], ["ste_m15", "ste_m5"], ["ste_m15", "ste_m6"], ["ste_m15", "ste_m7"], ["ste_m15", "ste_m8"], ["ste_m15", "ste_r1"], ["ste_m2", "ste_m25"], ["ste_m2", "ste_m3"], ["ste_m2", "ste_m4"], 
+    ["ste_m2", "ste_m5"], ["ste_m2", "ste_m6"], ["ste_m2", "ste_m7"], ["ste_m2", "ste_m8"], ["ste_m2", "ste_r1"], ["ste_m25", "ste_m3"], ["ste_m25", "ste_m4"], ["ste_m25", "ste_m5"], ["ste_m25", "ste_m6"], ["ste_m25", "ste_m7"],    
+    ["ste_m25", "ste_m8"], ["ste_m25", "ste_r1"], ["ste_m3", "ste_m4"], ["ste_m3", "ste_m5"], ["ste_m3", "ste_m6"], ["ste_m3", "ste_m7"], ["ste_m3", "ste_m8"], ["ste_m3", "ste_r1"], ["ste_m4", "ste_m5"], ["ste_m4", "ste_m6"],       
+    ["ste_m4", "ste_m7"], ["ste_m4", "ste_m8"], ["ste_m4", "ste_r1"], ["ste_m5", "ste_m6"], ["ste_m5", "ste_m7"], ["ste_m5", "ste_m8"], ["ste_m5", "ste_r1"], ["ste_m6", "ste_m7"], ["ste_m6", "ste_m8"], ["ste_m6", "ste_r1"],
+    ["ste_m7", "ste_m8"], ["ste_m7", "ste_r1"], ["ste_m8", "ste_r1"],
+
+    
+
+  ],
+
+
 },
 
 "Empty_steering":{
@@ -688,15 +795,7 @@
   "slotType": "steering",
 },
 
-"steering":{
-  "information":
-  {
-      "name":"Empty Steering",
-      "description":"No Steering",
-      "author":"Jonny",
-  },
-  "slotType": "steering",
-},
+
     
   }
 

@@ -1,0 +1,46 @@
+{
+    "default_verkleidung": {
+        "information": {
+            "name": "Verkleidung",
+            "description": "Vehicle bodywork",
+            "author": "Jonny"
+        },
+        "slotType": "verkleidung",
+        "slots": [
+            ["type", "default", "description"],
+            ["f_verkleidung", "f_default_verkleidung", "Front Verkleidung"],
+
+        ],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            ["bumper_plastic", ["bumper_plastic"],[],{"pos":{"x":0,"y":0,"z":-1}, "rot":{"x":0, "y":0, "z":90}}]
+        ]
+        "nodes": [
+            ["id", "posX", "posY", "posZ"],
+            {"group": "bumper_plastic", "nodeWeight":0.1, "nodeMaterial":"|NM_PLASTIC"},
+            ["fbp1", -0.371, -3.1390000000000002, 0.216],
+            ["fbp2", -0.164, -2.556, -0.28500000000000003],
+            ["fbp4", 0.216, -3.016, -0.052000000000000005],
+            ["fbp3", 0.16000000000000003, -2.571, -0.3]
+
+            ["fbp5", 0.332, -3.15, 0.227],
+            ["fbp6", -0.211, -3.02, -0.059000000000000004]
+            
+        ],
+
+        "beams":[
+            ["id1:", "id2:"],
+            {"breakGroup":"1","group": "bumper_plastic_conn", "beamStrength": 1000, "beamDamp":200,"beamSpring":20000,
+            "beamPrecompression":0.3}
+            ["bul2","fbp5"],["bur2","fbp1"],["f2l","fbp2"],["f2r","fbp3"]
+
+            {"beamPrecompression":1,"breakGroup":"","disableMeshBreaking": true,"group": "","breakGroupType": 1,"beamSpring":20000,"beamStrength":"FLT_MAX","beamDamp":10}
+            ["fbp1", "fbp2", {"beamSpring":40000}], ["fbp1", "fbp3"], ["fbp1", "fbp4"], ["fbp1", "fbp5"], ["fbp1", "fbp6"], ["fbp2", "fbp3"], ["fbp2", "fbp4"], ["fbp2", "fbp5"], ["fbp2", "fbp6"], ["fbp3", "fbp4"],
+            ["fbp3", "fbp5", {"beamSpring":40000}], ["fbp3", "fbp6"], ["fbp4", "fbp5"], ["fbp4", "fbp6"], ["fbp5", "fbp6"],
+
+
+
+]},
+    
+
+}

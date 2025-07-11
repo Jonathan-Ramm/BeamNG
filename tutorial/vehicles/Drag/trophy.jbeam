@@ -8,8 +8,17 @@
     "slotType": "main",
     "slots":[
       ["type", "default", "description"],
-      ["body","body","Body"]
-    ]
+      ["body","body","Body"],
+      ["verkleidung","default_verkleidung","Verkleidung"]
+    ],
+    "variables": [
+      ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+      ["$dampening", "range", "N/m/s", "Suspension",  10000, 0, 50000, "Damper Strength", "Change the Damper Strength"],
+      ["$damperSpring", "range", "N/m", "Suspension",  0, 0, 10000, "Damper Strength", "Change the Damper Strength"],
+      ["$federSpring", "range", "N/m", "Suspension",  300000, 0, 500000, "Spring Strength", "Change the Spring Strength"],
+      ["$federdamp", "range", "N/m/s", "Suspension",  10, 0, 500, "Damper", "Change the Ride Height"]
+  ]
+
 }
 }
     

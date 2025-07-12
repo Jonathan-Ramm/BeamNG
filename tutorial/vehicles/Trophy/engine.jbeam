@@ -1,0 +1,31 @@
+{
+    "engine_v8": {
+        "information": {
+            "name": "V8 Engine",
+            "authors": "Jonny",
+            "description": "Standard V8 Engine"
+        },
+
+        "nodes": [
+            ["id", "x", "y", "z"],
+        ],
+
+        "controller": [
+            ["fileName"],
+            ["vehicleController", {}],
+        ],
+        
+        "vehicleController": {
+            "calculateOptimalLoadShiftPoints": true,
+            "transmissionGearChangeDelay":2,
+            "gearboxDecisionSmoothingUp":2,
+            "gearboxDecisionSmoothingDown":2,
+            "aggressionSmoothingUp":1,
+            "aggressionSmoothingDown":0.5,
+            "aggressionHoldOffThrottleDelay":1.75,
+            "lowShiftDownRPM":1000,
+            "lowShiftUpRPM":1800,
+        },
+    
+    }
+}

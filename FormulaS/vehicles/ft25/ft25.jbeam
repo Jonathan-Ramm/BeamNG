@@ -1,0 +1,40 @@
+{
+  "ft25": {
+    "information": {
+      "name": "FT25",
+      "authors": "Jonny",
+      "value": 100
+    },
+    "slotType": "main",
+    "slots":[
+      ["type", "default", "description"],
+      ["ft25_body","ft25_body","Body",{"coreSlot":true}],
+      ["paint_design","skin_fasttube", "Paint Design"],
+      ["licenseplate_design_2_1","","License Plate Design"],
+    ],
+    "controller": [
+        ["fileName"],
+        ["vehicleController", {}]
+        ["postCrashBrake", {"brakeThreshold": 40}],
+    ]
+}
+"skin_fasttube": {
+    "information":{
+        "authors":"Jonny",
+        "name":"FaSTTUbe Skin",
+        "value":1000
+    },
+    "slotType" : "paint_design",
+    "globalSkin" : "fasttube"
+  }
+"skin_etksri": {
+    "information":{
+        "authors":"Jonny",
+        "name":"ETK-SRI Skin",
+        "value":1000
+    },
+    "slotType" : "paint_design",
+    "globalSkin" : "etksri"
+  }
+}
+    
